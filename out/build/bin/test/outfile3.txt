@@ -1,0 +1,6 @@
+Filled container:
+Container contains 4 elements.
+0: It is Circle:    x = (11, 1) r = 12. Area = 452.389. Color = GREEN
+1: It is Circle:    x = (0, 0) r = 100. Area = 31415.9. Color = ORANGE
+2: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (0, 0). Area = 1. Color = ORANGE
+3: It is Rectangle: x = (0, 0) x_1 = (2, 2). Area = 4. Color = GREEN
