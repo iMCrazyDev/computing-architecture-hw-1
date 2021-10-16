@@ -1,5 +1,5 @@
 # computing-architecture-hw-1
- 
+Андрян Арсен БПИ201
 
 ## Компиляции и запуск
 Компилировалось и запускалось все на Visual Studio, CLion.
