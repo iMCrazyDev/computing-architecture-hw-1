@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = A:\avs\01-01-proc-c++incl\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,53 +128,18 @@ task/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/build
 .PHONY : task/fast
 
-circle.obj: circle.cpp.obj
-.PHONY : circle.obj
+#=============================================================================
+# Target rules for targets named test
 
-# target to build an object file
-circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/circle.cpp.obj
-.PHONY : circle.cpp.obj
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
 
-circle.i: circle.cpp.i
-.PHONY : circle.i
-
-# target to preprocess a source file
-circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/circle.cpp.i
-.PHONY : circle.cpp.i
-
-circle.s: circle.cpp.s
-.PHONY : circle.s
-
-# target to generate assembly for a file
-circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/circle.cpp.s
-.PHONY : circle.cpp.s
-
-container.obj: container.cpp.obj
-.PHONY : container.obj
-
-# target to build an object file
-container.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/container.cpp.obj
-.PHONY : container.cpp.obj
-
-container.i: container.cpp.i
-.PHONY : container.i
-
-# target to preprocess a source file
-container.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/container.cpp.i
-.PHONY : container.cpp.i
-
-container.s: container.cpp.s
-.PHONY : container.s
-
-# target to generate assembly for a file
-container.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/container.cpp.s
-.PHONY : container.cpp.s
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -200,77 +165,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-rectangle.obj: rectangle.cpp.obj
-.PHONY : rectangle.obj
+test.obj: test.cpp.obj
+.PHONY : test.obj
 
 # target to build an object file
-rectangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/rectangle.cpp.obj
-.PHONY : rectangle.cpp.obj
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
 
-rectangle.i: rectangle.cpp.i
-.PHONY : rectangle.i
-
-# target to preprocess a source file
-rectangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/rectangle.cpp.i
-.PHONY : rectangle.cpp.i
-
-rectangle.s: rectangle.cpp.s
-.PHONY : rectangle.s
-
-# target to generate assembly for a file
-rectangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/rectangle.cpp.s
-.PHONY : rectangle.cpp.s
-
-shape.obj: shape.cpp.obj
-.PHONY : shape.obj
-
-# target to build an object file
-shape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/shape.cpp.obj
-.PHONY : shape.cpp.obj
-
-shape.i: shape.cpp.i
-.PHONY : shape.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-shape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/shape.cpp.i
-.PHONY : shape.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-shape.s: shape.cpp.s
-.PHONY : shape.s
-
-# target to generate assembly for a file
-shape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/shape.cpp.s
-.PHONY : shape.cpp.s
-
-triangle.obj: triangle.cpp.obj
-.PHONY : triangle.obj
-
-# target to build an object file
-triangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/triangle.cpp.obj
-.PHONY : triangle.cpp.obj
-
-triangle.i: triangle.cpp.i
-.PHONY : triangle.i
-
-# target to preprocess a source file
-triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/triangle.cpp.i
-.PHONY : triangle.cpp.i
-
-triangle.s: triangle.cpp.s
-.PHONY : triangle.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/triangle.cpp.s
-.PHONY : triangle.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -281,24 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... task
-	@echo ... circle.obj
-	@echo ... circle.i
-	@echo ... circle.s
-	@echo ... container.obj
-	@echo ... container.i
-	@echo ... container.s
+	@echo ... test
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... rectangle.obj
-	@echo ... rectangle.i
-	@echo ... rectangle.s
-	@echo ... shape.obj
-	@echo ... shape.i
-	@echo ... shape.s
-	@echo ... triangle.obj
-	@echo ... triangle.i
-	@echo ... triangle.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

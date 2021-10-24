@@ -21,13 +21,9 @@ set(SOURCE_FILES
     utils.h
     color.h
 
-    # Sources
-    triangle.cpp
-    rectangle.cpp
-    shape.cpp
-    container.cpp
+    # Sources    
     main.cpp
-    circle.cpp)
+    )
 
 add_executable(task ${SOURCE_FILES})
 

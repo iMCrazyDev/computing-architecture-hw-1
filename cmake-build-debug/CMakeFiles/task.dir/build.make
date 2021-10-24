@@ -65,61 +65,9 @@ include CMakeFiles/task.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task.dir/flags.make
 
-CMakeFiles/task.dir/triangle.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/triangle.cpp.obj: ../triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/triangle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\triangle.cpp.obj -c A:\avs\01-01-proc-c++incl\triangle.cpp
-
-CMakeFiles/task.dir/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/triangle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\avs\01-01-proc-c++incl\triangle.cpp > CMakeFiles\task.dir\triangle.cpp.i
-
-CMakeFiles/task.dir/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/triangle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\triangle.cpp -o CMakeFiles\task.dir\triangle.cpp.s
-
-CMakeFiles/task.dir/rectangle.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/rectangle.cpp.obj: ../rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/rectangle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\rectangle.cpp.obj -c A:\avs\01-01-proc-c++incl\rectangle.cpp
-
-CMakeFiles/task.dir/rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/rectangle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\avs\01-01-proc-c++incl\rectangle.cpp > CMakeFiles\task.dir\rectangle.cpp.i
-
-CMakeFiles/task.dir/rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/rectangle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\rectangle.cpp -o CMakeFiles\task.dir\rectangle.cpp.s
-
-CMakeFiles/task.dir/shape.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/shape.cpp.obj: ../shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/shape.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\shape.cpp.obj -c A:\avs\01-01-proc-c++incl\shape.cpp
-
-CMakeFiles/task.dir/shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/shape.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\avs\01-01-proc-c++incl\shape.cpp > CMakeFiles\task.dir\shape.cpp.i
-
-CMakeFiles/task.dir/shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/shape.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\shape.cpp -o CMakeFiles\task.dir\shape.cpp.s
-
-CMakeFiles/task.dir/container.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/container.cpp.obj: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/container.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\container.cpp.obj -c A:\avs\01-01-proc-c++incl\container.cpp
-
-CMakeFiles/task.dir/container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/container.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\avs\01-01-proc-c++incl\container.cpp > CMakeFiles\task.dir\container.cpp.i
-
-CMakeFiles/task.dir/container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/container.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\container.cpp -o CMakeFiles\task.dir\container.cpp.s
-
 CMakeFiles/task.dir/main.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\main.cpp.obj -c A:\avs\01-01-proc-c++incl\main.cpp
 
 CMakeFiles/task.dir/main.cpp.i: cmake_force
@@ -130,42 +78,19 @@ CMakeFiles/task.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\main.cpp -o CMakeFiles\task.dir\main.cpp.s
 
-CMakeFiles/task.dir/circle.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/circle.cpp.obj: ../circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/circle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\circle.cpp.obj -c A:\avs\01-01-proc-c++incl\circle.cpp
-
-CMakeFiles/task.dir/circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/circle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E A:\avs\01-01-proc-c++incl\circle.cpp > CMakeFiles\task.dir\circle.cpp.i
-
-CMakeFiles/task.dir/circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/circle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S A:\avs\01-01-proc-c++incl\circle.cpp -o CMakeFiles\task.dir\circle.cpp.s
-
 # Object files for target task
 task_OBJECTS = \
-"CMakeFiles/task.dir/triangle.cpp.obj" \
-"CMakeFiles/task.dir/rectangle.cpp.obj" \
-"CMakeFiles/task.dir/shape.cpp.obj" \
-"CMakeFiles/task.dir/container.cpp.obj" \
-"CMakeFiles/task.dir/main.cpp.obj" \
-"CMakeFiles/task.dir/circle.cpp.obj"
+"CMakeFiles/task.dir/main.cpp.obj"
 
 # External object files for target task
 task_EXTERNAL_OBJECTS =
 
-../bin/task.exe: CMakeFiles/task.dir/triangle.cpp.obj
-../bin/task.exe: CMakeFiles/task.dir/rectangle.cpp.obj
-../bin/task.exe: CMakeFiles/task.dir/shape.cpp.obj
-../bin/task.exe: CMakeFiles/task.dir/container.cpp.obj
 ../bin/task.exe: CMakeFiles/task.dir/main.cpp.obj
-../bin/task.exe: CMakeFiles/task.dir/circle.cpp.obj
 ../bin/task.exe: CMakeFiles/task.dir/build.make
 ../bin/task.exe: CMakeFiles/task.dir/linklibs.rsp
 ../bin/task.exe: CMakeFiles/task.dir/objects1.rsp
 ../bin/task.exe: CMakeFiles/task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ..\bin\task.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=A:\avs\01-01-proc-c++incl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\task.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\task.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

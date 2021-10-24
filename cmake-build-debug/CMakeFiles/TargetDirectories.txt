@@ -1,3 +1,4 @@
 A:/avs/01-01-proc-c++incl/cmake-build-debug/CMakeFiles/task.dir
-A:/avs/01-01-proc-c++incl/cmake-build-debug/CMakeFiles/edit_cache.dir
 A:/avs/01-01-proc-c++incl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+A:/avs/01-01-proc-c++incl/cmake-build-debug/CMakeFiles/test.dir
+A:/avs/01-01-proc-c++incl/cmake-build-debug/CMakeFiles/edit_cache.dir

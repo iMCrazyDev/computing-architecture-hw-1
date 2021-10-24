@@ -1,8 +1,8 @@
 Filled container:
 Container contains 6 elements.
-0: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (5, 7). Area = 1. Color = ORANGE
-1: It is Triangle:  x = (1, 1) x_1 = (2, 2) x_2 = (12, 12). Area = 0. Color = ORANGE
-2: It is Rectangle: x = (1, 2) x_1 = (3, 4). Area = 4. Color = ORANGE
-3: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (5, 7). Area = 1. Color = ORANGE
-4: It is Circle:    x = (1, 1) r = 1. Area = 3.14159. Color = ORANGE
-5: It is Rectangle: x = (0, 0) x_1 = (123, 1). Area = 123. Color = ORANGE
+0: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (5, 7). Area = 1.000000. Color = ORANGE
+1: It is Triangle:  x = (1, 1) x_1 = (2, 2) x_2 = (12, 12). Area = 0.000000. Color = ORANGE
+2: It is Rectangle: x = (1, 2) x_1 = (3, 4). Area = 4.000000. Color = ORANGE
+3: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (5, 7). Area = 1.000000. Color = ORANGE
+4: It is Circle:    x = (1, 1) r = 1. Area = 3.141593. Color = ORANGE
+5: It is Rectangle: x = (0, 0) x_1 = (123, 1). Area = 123.000000. Color = ORANGE

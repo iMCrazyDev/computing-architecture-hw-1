@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+A:/avs/01-01-proc-c++incl/test.cpp
+stdio.h
+-
+process.h
+-
+vector
+-
+chrono
+-
+string
+-
+iostream
+-
+

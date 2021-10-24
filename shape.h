@@ -1,3 +1,5 @@
+#include <string>
+
 #ifndef __shape__
 #define __shape__
 
@@ -5,39 +7,27 @@
 // shape.h - содержит описание обобщающей геометрической фигуры,
 //------------------------------------------------------------------------------
 
-#include "circle.h"
-#include "rectangle.h"
-#include "triangle.h"
-
 //------------------------------------------------------------------------------
 // структура, обобщающая все имеющиеся фигуры
-struct shape {
-    // значения ключей для каждой из фигур
-    enum key {RECTANGLE, TRIANGLE, CIRCLE};
-
-    key k; // ключ
+class shape {
+protected:
+    std::string type;
     double area;
-    // используемые альтернативы
-    union { // используем простейшую реализацию
-        rectangle r;
-        triangle t;
-        circle c;
-    };
+
+    virtual double calculateArea() = 0;
+
+public:
+    std::string getType() {
+        return type;
+    }
+
+    double getArea() {
+        return area;
+    }
+
+    virtual std::string toString() = 0;
+
 };
 
-// Ввод обобщенной фигуры
-bool In(shape &s, ifstream &ifdt);
-
-// Случайный ввод обобщенной фигуры
-bool InRnd(shape &s);
-
-// Вывод обобщенной фигуры
-void Out(shape &s, ofstream &ofst);
-
-// Вычисление периметра обобщенной фигуры
-double Area(shape &s);
-
-// Получить цвет
-color Color(shape &s);
 
 #endif

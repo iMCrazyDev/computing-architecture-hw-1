@@ -10,30 +10,56 @@
 
 //------------------------------------------------------------------------------
 // Простейший контейнер на основе одномерного массива
-struct container {
-    enum {max_len = 10000}; // максимальная длина
-    int len; // текущая длина
-    shape cont[max_len];
+class container {
+
+private:
+    static const size_t kCapacity = 10000;
+    shape* cont[kCapacity];
+    size_t size;
+
+public:
+    container() : size(0) {}
+
+    ~container() {
+        for (int i = 0; i < size; i++) {
+            delete cont[i];
+        }
+    }
+    void push_back(shape* value) {
+        cont[size++] = value;
+    }
+
+    void pop_back() {
+        delete cont[--size];
+    }
+
+    inline shape& operator[](size_t position) {
+        return *cont[position];
+    }
+
+    size_t getSize() {
+        return size;
+    }
+
+    double AreaSum() {
+        double sum = 0.0;
+        for (int i = 0; i < size; i++) {
+            sum += cont[i]->getArea();
+        }
+        return sum;
+    }
+
+    void Sort() {
+        for (int i = 1; i < size; i++) {
+            shape* s = cont[i];
+
+            int j = i - 1;
+            for (; j >= 0 && cont[j]->getArea() > s->getArea(); j--) {
+                cont[j + 1] = cont[j];
+            }
+            cont[j + 1] = s;
+        }
+    }
 };
-
-// Инициализация контейнера
-void Init(container &c);
-
-// Очистка контейнера от элементов (освобождение памяти)
-void Clear(container &c);
-
-// Ввод содержимого контейнера из указанного потока
-void In(container &c, ifstream &ifst);
-
-// Случайный ввод содержимого контейнера
-void InRnd(container &c, int size);
-
-// Вывод содержимого контейнера в указанный поток
-void Out(container &c, ofstream &ofst);
-
-// Вычисление суммы периметров всех фигур в контейнере
-double AreaSum(container &c);
-
-void Sort(container& c);
 
 #endif

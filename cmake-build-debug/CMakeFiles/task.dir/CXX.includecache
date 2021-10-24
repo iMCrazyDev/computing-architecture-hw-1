@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-A:/avs/01-01-proc-c++incl/circle.cpp
-circle.h
-A:/avs/01-01-proc-c++incl/circle.h
-
 A:/avs/01-01-proc-c++incl/circle.h
 fstream
 -
@@ -19,12 +15,10 @@ color.h
 A:/avs/01-01-proc-c++incl/color.h
 utils.h
 A:/avs/01-01-proc-c++incl/utils.h
+shape.h
+A:/avs/01-01-proc-c++incl/shape.h
 
 A:/avs/01-01-proc-c++incl/color.h
-
-A:/avs/01-01-proc-c++incl/container.cpp
-container.h
-A:/avs/01-01-proc-c++incl/container.h
 
 A:/avs/01-01-proc-c++incl/container.h
 shape.h
@@ -43,12 +37,16 @@ cstring
 -
 container.h
 A:/avs/01-01-proc-c++incl/container.h
-
-A:/avs/01-01-proc-c++incl/rectangle.cpp
-rectangle.h
-A:/avs/01-01-proc-c++incl/rectangle.h
 shape.h
 A:/avs/01-01-proc-c++incl/shape.h
+rectangle.h
+A:/avs/01-01-proc-c++incl/rectangle.h
+triangle.h
+A:/avs/01-01-proc-c++incl/triangle.h
+circle.h
+A:/avs/01-01-proc-c++incl/circle.h
+utils.h
+A:/avs/01-01-proc-c++incl/utils.h
 
 A:/avs/01-01-proc-c++incl/rectangle.h
 fstream
@@ -59,30 +57,16 @@ color.h
 A:/avs/01-01-proc-c++incl/color.h
 utils.h
 A:/avs/01-01-proc-c++incl/utils.h
+shape.h
+A:/avs/01-01-proc-c++incl/shape.h
 
 A:/avs/01-01-proc-c++incl/rnd.h
 cstdlib
 -
 
-A:/avs/01-01-proc-c++incl/shape.cpp
-shape.h
 A:/avs/01-01-proc-c++incl/shape.h
-math.h
-A:/avs/01-01-proc-c++incl/math.h
-
-A:/avs/01-01-proc-c++incl/shape.h
-circle.h
-A:/avs/01-01-proc-c++incl/circle.h
-rectangle.h
-A:/avs/01-01-proc-c++incl/rectangle.h
-triangle.h
-A:/avs/01-01-proc-c++incl/triangle.h
-
-A:/avs/01-01-proc-c++incl/triangle.cpp
-triangle.h
-A:/avs/01-01-proc-c++incl/triangle.h
-math.h
-A:/avs/01-01-proc-c++incl/math.h
+string
+-
 
 A:/avs/01-01-proc-c++incl/triangle.h
 fstream
@@ -93,8 +77,12 @@ color.h
 A:/avs/01-01-proc-c++incl/color.h
 utils.h
 A:/avs/01-01-proc-c++incl/utils.h
+shape.h
+A:/avs/01-01-proc-c++incl/shape.h
 
 A:/avs/01-01-proc-c++incl/utils.h
 math.h
 A:/avs/01-01-proc-c++incl/math.h
+sstream
+-
 
