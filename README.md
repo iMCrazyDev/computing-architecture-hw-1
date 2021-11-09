@@ -1,12 +1,11 @@
-# computing-architecture-hw-2
+# computing-architecture-hw-1
 Андрян Арсен БПИ201
 
 ## Компиляции и запуск
 Компилировалось и запускалось все на Visual Studio, CLion.
 При изменении папки компиляции, необходимо перенести тесты из out\build\bin\test.
 
-##Сравнение с си
-По сравнению с СИ вышло намного меньше .cpp файлов в виду того, что не нужно писать реализацию для каждого обобщенного типа. Скорость выполнения выросла незначильно, я думаю, что это связано с использованием таблицы виртуальных функицй.
+
 # Задание
 
 ## Артефакты
@@ -27,11 +26,11 @@
 Площадь 
 
 ## Время выполнения тестов
-test\in1.txt 74 ms.
-test\in2.txt 32 ms.
-test\in3.txt 27 ms.
-test\in4.txt 25 ms.
-test\in5.txt 27 ms.
+test\in1.txt 40 ms.  
+test\in2.txt 22 ms.  
+test\in3.txt 30 ms.  
+test\in4.txt 20 ms.  
+test\in5.txt 22 ms.  
 
 ## Наложение на АВС
 https://docs.google.com/spreadsheets/d/1GOYvj9hl56eZNhUHdndZnCuBSEIx6jYDsjyfCkcJPFM/edit?usp=sharing
@@ -39,4 +38,4 @@ https://docs.google.com/spreadsheets/d/1GOYvj9hl56eZNhUHdndZnCuBSEIx6jYDsjyfCkcJ
 ## Интерфейсных модулей .h
 8
 ## Интерфейсных реализаций .cpp
-1
+7
