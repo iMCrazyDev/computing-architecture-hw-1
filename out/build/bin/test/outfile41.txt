@@ -1,3 +1,0 @@
-Area sum = 0
-Sorting...
-Container contains 0 elements.

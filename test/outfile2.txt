@@ -1,0 +1,8 @@
+6
+Sum 9332.14159265359
+Rectangle X: 1 Y: 2 X1: 3 Y1: 4 S: 4.0 Color: ORANGE
+Rectangle X: 19 Y: 2 X1: 1 Y1: 4 S: 36.0 Color: GREEN
+Rectangle X: 11 Y: 22 X1: 33 Y1: 444 S: 9284.0 Color: ORANGE
+Rectangle X: 1 Y: 2 X1: 3 Y1: 4 S: 4.0 Color: GREEN
+Triangle X: 1 Y: 2 X1: 3 Y1: 4 X2: 5 Y2: 7 S: 1.0000000000000029 Color: ORANGE
+Circle X: 1 Y: 1 R: 1 S: 3.141592653589793 Color: ORANGE

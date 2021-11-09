@@ -1,0 +1,5 @@
+Sum 8.141592653589797
+3
+Triangle X: 1 Y: 2 X1: 3 Y1: 4 X2: 5 Y2: 7 S: 1.0000000000000029 Color: ORANGE
+Circle X: 1 Y: 1 R: 1 S: 3.141592653589793 Color: ORANGE
+Rectangle X: 1 Y: 2 X1: 3 Y1: 4 S: 4.0 Color: ORANGE

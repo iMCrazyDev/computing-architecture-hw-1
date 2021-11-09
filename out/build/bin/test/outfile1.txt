@@ -1,5 +1,0 @@
-Filled container:
-Container contains 3 elements.
-0: It is Rectangle: x = (1, 2) x_1 = (3, 4). Area = 4. Color = ORANGE
-1: It is Triangle:  x = (1, 2) x_1 = (3, 4) x_2 = (5, 7). Area = 1. Color = ORANGE
-2: It is Circle:    x = (1, 1) r = 1. Area = 3.14159. Color = ORANGE
