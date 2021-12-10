@@ -1,6 +1,6 @@
 #pragma once
 #include "HairdressSalon.h"
-#define msThreadBeforeIterate
+#define msThreadBeforeIterate 300
 class Client {
 public:
     Client();

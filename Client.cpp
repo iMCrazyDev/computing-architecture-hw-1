@@ -18,10 +18,10 @@ void Client::DoWork() {
     while (true) {
         std::this_thread::sleep_for(std::chrono::milliseconds(msThreadBeforeIterate));
         std::cout << color << "Client " << clientId << " is waiting for a new haircut" << std::endl << def;
-        std::unique_lock<std::mutex> locker(hairDresser->Mutex);
+        std::unique_lock<std::mutex> locker(hairDresser->ClientMutex);
         hairDresser->CurrentIndex = GetId();
-        hairDresser->CV.notify_one();
-        std::cout << color << "Client " << clientId << " is under working" << std::endl << def;
-        hairDresser->CV.wait(locker);
+        hairDresser->PrivateCV.notify_one();
+        hairDresser->ClientsCV.wait(locker);
+        std::cout << color << "Client " << clientId << " is done" << std::endl << def;
     }
 }

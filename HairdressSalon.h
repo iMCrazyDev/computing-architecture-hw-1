@@ -5,8 +5,9 @@
 
 class HairDresser {
 public:
-    std::condition_variable CV;
-    std::mutex Mutex;
+    std::condition_variable PrivateCV;
+    std::condition_variable ClientsCV;
+    std::mutex ClientMutex;
     int CurrentIndex;
 
     HairDresser();
